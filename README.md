@@ -1,7 +1,9 @@
 ## Atividade - React Routes
 
-O aplicativo disponível em [React Context e Styled Components](https://github.com/arleysouza/react-context-styled)é permitir ao usuário compor cores usando RGB, HSLA e CMYK. Cada cor é exibida em um componente, sendo os três componentes exibidos na mesma página. 
-O objetivo dessa atividade é fazer cada componente RGB, HSLA e CMYK ser roteado para uma URL `/rgb`,`/hsla` e `/cmyk`. Desta forma, será exibido um componente por vez.
+O aplicativo disponível em [React Context e Styled Components](https://github.com/arleysouza/react-context-styled) possibilita ao usuário compor cores usando RGB, HSLA e CMYK. Cada cor é exibida em um componente, sendo os três componentes exibidos na mesma página. 
+
+O objetivo dessa atividade é fazer cada componente RGB, HSLA e CMYK ser roteado para uma URL `/rgb`,`/hsla` e `/cmyk`. Desta forma, será exibido um componente por página, no exemplo a seguir está sendo exibido o componente RGB.
+
 Observação:
 - Se o usuário navegar pelas rotas através do menu, os componentes deverão manter os valores dos campos de entrada ao retornar. 
 
