@@ -33,10 +33,11 @@ a:visited {
   color: inherit; /* Mantém a cor padrão do texto */
 }
 ```
-3. Criou-se o componente `Logo` na pasta `components`. Esse componente possui a imagem do logo bem como a formatação CSS que foi aplicada usando styled-components. O componente `Logo` serão criados na barra de menu;
+3. Criou-se o componente `Logo` na pasta `components`. Esse componente possui a imagem do logo bem como a formatação CSS que foi aplicada usando styled-components. O componente `Logo` será criado na barra de menu;
 4. Criou-se o componente `ItemMenu` na pasta `components`. Cada componente será um hiperlink para uma rota. Os componentes `ItemMenu` serão criados na barra de menu;
 5. Criou-se a pasta `routes` nela você vai definir as rotas;
 
-### Modificaçõe necessárias no projeto
-1. Será necessário criar as rotas `/rgb`,`/hsla` e `/cmyk` usando a estrutura de marcações `<BrowserRouter>`,`<Routes>` e `<Route>`.
-2. A localização do provider - por exemplo, `<RGBProvider>` - determina o seu alcance. Para manter os valores dos campos de entrada quando o usuário navegar de uma rota para outra será necessário colocar `<RGBProvider>` numa posição que envolva as rotas.
+### Modificações necessárias no projeto
+1. Será necessário criar as rotas `/rgb`,`/hsla` e `/cmyk`, no pacote `routes`, usando a estrutura de marcações `<BrowserRouter>`,`<Routes>` e `<Route>`;
+2. A localização do provider - por exemplo, `<RGBProvider>` - determina o seu alcance. Para manter os valores dos campos de entrada quando o usuário navegar de uma rota para outra será necessário colocar `<RGBProvider>` numa posição que envolva as rotas;
+3. Será necessário chamar o componente `<Rotas>` no componente `App`. Visto que toda a interface da aplicação estará no componente `Rotas`.
