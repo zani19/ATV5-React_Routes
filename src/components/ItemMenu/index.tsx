@@ -5,7 +5,7 @@ export default function ItemMenu({link, children}:any){
     return <Sld><Link to={link}>{children}</Link></Sld>;
 }
 
-const Sld = styled.a`
+const Sld = styled.div`
     display: flex;
     margin: 0px 15px;
     font-size: 18px;
