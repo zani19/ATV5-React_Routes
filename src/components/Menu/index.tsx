@@ -6,7 +6,8 @@ export default function Menu() {
   return (
     <Sld>
       <Logo />
-      <RightSld>       
+      <RightSld>
+        <ItemMenu link="/">Home</ItemMenu>
         <ItemMenu link="/rgb">RGB</ItemMenu>
         <ItemMenu link="/hsla">HSLA</ItemMenu>
         <ItemMenu link="/cmyk">CMYK</ItemMenu>

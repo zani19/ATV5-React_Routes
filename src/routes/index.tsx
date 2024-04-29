@@ -1,6 +1,9 @@
-import { BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Menu from "../components/Menu";
 import styled from "styled-components";
+import RGB from "../pages/RGB";
+import HSLA from "../pages/HSLA";
+import CMYK from "../pages/CMYK";
 
 export default function Rotas() {
   return (
@@ -8,7 +11,11 @@ export default function Rotas() {
       <BrowserRouter>
         <Menu />
         <BodySld>
-          <Routes>{/* definir as rotas aqui */}</Routes>
+          <Routes>
+            <Route path="/rgb" element={<RGB />} />
+            <Route path="/hsla" element={<HSLA />} />
+            <Route path="/cmyk" element={<CMYK />} />
+          </Routes>
         </BodySld>
       </BrowserRouter>
     </PageSld>
